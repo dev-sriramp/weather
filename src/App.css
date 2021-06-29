@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: monospace,sans-serif;
+  font-size: 30px;
+}
+.App{
+  background-image: url('./assets/hot.jpeg');
+  background-size: cover;
+  background-position: top;
+}
+.App{
+  background-image: url('./assets/rainy.jpeg');
+  background-size: cover;
+  background-position: top;
+}
+.App{
+  background-image: url('./assets/cloudy.jpeg');
+  background-size: cover;
+  background-position: top;
+}
+.Main{
+  min-height: 100vh;
+}
+.searchbox{
+  margin-left: 10%;
+
+}
+
+.search{
+  position: relative;
+  margin-top: 5%;
+  display: inline;
+  width: 60%;
+  height: 50px;
+  padding: 2px;
+  margin-left: 20%;
+  border-radius: 5px 5px 15px 15px;
+}
+.Box{
+  color: #ffffff;
+  text-align: center;
+  padding-top: 20px;
+}
+.city{
+  text-align: center;
+  padding-top: 20px;
+}
